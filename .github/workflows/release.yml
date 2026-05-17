@@ -41,7 +41,7 @@ jobs:
           cache: "npm"
 
       - name: Install release tooling
-        run: npm ci
+        run: npm install
 
       - name: Run semantic-release (with Docker)
         env:
